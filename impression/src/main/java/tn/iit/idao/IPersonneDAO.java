@@ -7,10 +7,8 @@ import tn.iit.models.Personne;
 public interface IPersonneDAO {
 	
 	void save(Personne personne);
-
-	void activer(Personne personne);
 	
-	void desactiver (Personne personne);
+	void updateStatus (int id, Boolean status);
 
 	void update(Personne personne);
 
