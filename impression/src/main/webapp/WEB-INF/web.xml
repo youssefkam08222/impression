@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>DemandeTirageController</servlet-name>
+  	<display-name>DemandeTirageController</display-name>
+  	<description></description>
+  	<servlet-class>tn.iit.controllers.DemandeTirageController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>DemandeTirageController</servlet-name>
+  	<url-pattern>/DemandeTirageController</url-pattern>
+  </servlet-mapping>
 </web-app>
